@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/ask-ruslan/knowledge-base.schema.json",
+  "title": "Ask Ruslan public knowledge base",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "owner_display_name",
+    "publication_policy",
+    "experience",
+    "projects",
+    "principles",
+    "interview_qa"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "owner_display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publication_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["default_status", "searchable_status", "notes"],
+      "properties": {
+        "default_status": { "const": "draft" },
+        "searchable_status": { "const": "approved_public" },
+        "notes": { "type": "string", "minLength": 1 }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/experience" }
+    },
+    "projects": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/project" }
+    },
+    "principles": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/principle" }
+    },
+    "interview_qa": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/interviewQa" }
+    }
+  },
+  "$defs": {
+    "publicationStatus": {
+      "type": "string",
+      "enum": ["draft", "approved_public", "private", "retired"]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "reference"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["ruslan_statement", "portfolio", "resume", "project_record", "other"]
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A non-secret provenance note; do not place credentials or private source contents here."
+        },
+        "verified_on": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "base": {
+      "type": "object",
+      "required": [
+        "id",
+        "publication_status",
+        "title",
+        "tags",
+        "keywords",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "publication_status": { "$ref": "#/$defs/publicationStatus" },
+        "title": { "type": "string", "minLength": 1 },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "keywords": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "technologies": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/source" }
+        },
+        "approved_on": { "type": "string", "format": "date" },
+        "approved_by": { "type": "string", "minLength": 1 }
+      }
+    },
+    "experience": {
+      "allOf": [
+        { "$ref": "#/$defs/base" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["summary", "responsibilities", "outcomes"],
+          "properties": {
+            "id": true,
+            "publication_status": true,
+            "title": true,
+            "tags": true,
+            "keywords": true,
+            "technologies": true,
+            "sources": true,
+            "approved_on": true,
+            "approved_by": true,
+            "organization": { "type": "string", "minLength": 1 },
+            "role": { "type": "string", "minLength": 1 },
+            "period": { "type": "string", "minLength": 1 },
+            "summary": { "type": "string", "minLength": 1 },
+            "responsibilities": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "outcomes": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "project": {
+      "allOf": [
+        { "$ref": "#/$defs/base" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["problem", "ruslan_contribution", "decisions", "outcomes"],
+          "properties": {
+            "id": true,
+            "publication_status": true,
+            "title": true,
+            "tags": true,
+            "keywords": true,
+            "technologies": true,
+            "sources": true,
+            "approved_on": true,
+            "approved_by": true,
+            "problem": { "type": "string", "minLength": 1 },
+            "ruslan_contribution": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "decisions": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "outcomes": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "principle": {
+      "allOf": [
+        { "$ref": "#/$defs/base" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["statement", "application"],
+          "properties": {
+            "id": true,
+            "publication_status": true,
+            "title": true,
+            "tags": true,
+            "keywords": true,
+            "technologies": true,
+            "sources": true,
+            "approved_on": true,
+            "approved_by": true,
+            "statement": { "type": "string", "minLength": 1 },
+            "application": { "type": "string", "minLength": 1 },
+            "exceptions": {
+              "type": "array",
+              "items": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "interviewQa": {
+      "allOf": [
+        { "$ref": "#/$defs/base" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["question", "answer", "supported_by"],
+          "properties": {
+            "id": true,
+            "publication_status": true,
+            "title": true,
+            "tags": true,
+            "keywords": true,
+            "technologies": true,
+            "sources": true,
+            "approved_on": true,
+            "approved_by": true,
+            "question": { "type": "string", "minLength": 1 },
+            "answer": { "type": "string", "minLength": 1 },
+            "supported_by": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^(experience|project|principle):[a-z0-9]+(?:-[a-z0-9]+)*$"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "owner_display_name": "Ruslan",
+  "publication_policy": {
+    "default_status": "draft",
+    "searchable_status": "approved_public",
+    "notes": "Only explicitly approved public records may be used as evidence about Ruslan."
+  },
+  "experience": [],
+  "projects": [],
+  "principles": [],
+  "interview_qa": []
+}

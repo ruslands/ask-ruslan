@@ -1,0 +1,25 @@
+{
+  "name": "ask-ruslan",
+  "version": "0.1.0",
+  "description": "Grounded technical and interview answers from Ruslan's approved professional knowledge base.",
+  "author": {
+    "name": "Ruslan"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Ask Ruslan",
+    "shortDescription": "Grounded answers from approved experience.",
+    "longDescription": "Answers technical and interview-style questions using only Ruslan's explicitly approved public experience, projects, engineering principles, and curated Q&A. General recommendations are clearly separated from claims about Ruslan.",
+    "developerName": "Ruslan",
+    "category": "Productivity",
+    "capabilities": [
+      "Deterministic knowledge retrieval",
+      "Grounded professional Q&A"
+    ],
+    "defaultPrompt": [
+      "What has Ruslan actually done with this technology?",
+      "Answer this interview question as Ruslan.",
+      "Separate Ruslan's experience from general advice."
+    ]
+  }
+}

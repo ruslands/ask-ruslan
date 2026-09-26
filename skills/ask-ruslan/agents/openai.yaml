@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ask Ruslan"
+  short_description: "Grounded answers from Ruslan’s approved experience"
+  default_prompt: "Use $ask-ruslan to answer this question from Ruslan’s approved professional experience."
