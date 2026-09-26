@@ -1,0 +1,21 @@
+{
+  "name": "ask-ruslan-marketplace",
+  "interface": {
+    "displayName": "Ask Ruslan"
+  },
+  "plugins": [
+    {
+      "name": "ask-ruslan",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ruslands/ask-ruslan.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
