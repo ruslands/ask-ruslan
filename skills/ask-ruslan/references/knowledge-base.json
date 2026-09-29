@@ -6,8 +6,1663 @@
     "searchable_status": "approved_public",
     "notes": "Only explicitly approved public records may be used as evidence about Ruslan."
   },
-  "experience": [],
-  "projects": [],
-  "principles": [],
-  "interview_qa": []
+  "experience": [
+    {
+      "id": "backend-architecture-career",
+      "publication_status": "draft",
+      "title": "Backend development and system architecture career",
+      "tags": [
+        "backend",
+        "architecture",
+        "career"
+      ],
+      "keywords": [
+        "backend development",
+        "system architecture",
+        "more than ten years",
+        "бэкенд-разработка",
+        "архитектура систем",
+        "больше десяти лет"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L1"
+        }
+      ],
+      "summary": "Ruslan has more than ten years of experience in backend development and system architecture. He began in data science at Sberbank Life Insurance and later worked as a developer or architect, including for European companies.",
+      "responsibilities": [
+        "Backend development",
+        "System architecture",
+        "Turning existing technologies into working products"
+      ],
+      "outcomes": []
+    },
+    {
+      "id": "ml-data-science-background",
+      "publication_status": "draft",
+      "title": "Machine-learning and data-science background",
+      "tags": [
+        "machine-learning",
+        "data-science",
+        "career"
+      ],
+      "keywords": [
+        "ML experience",
+        "NLP experience",
+        "classical models",
+        "actuarial data",
+        "insurance data",
+        "опыт ML"
+      ],
+      "technologies": [
+        "Python",
+        "LSTM"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-1"
+        }
+      ],
+      "period": "2014–2018",
+      "summary": "Ruslan describes about four and a half years in a dedicated ML role, applying classical models to actuarial and insurance data before focusing on backend engineering and system architecture.",
+      "responsibilities": [
+        "Applied classical machine-learning models to actuarial and insurance data"
+      ],
+      "outcomes": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "samokat-backend-driven-ui",
+      "publication_status": "draft",
+      "title": "Samokat Backend-Driven UI platform",
+      "tags": [
+        "architecture",
+        "backend",
+        "mobile"
+      ],
+      "keywords": [
+        "Samokat",
+        "Самокат",
+        "Backend-Driven UI",
+        "BDUI",
+        "ADR",
+        "mobile applications"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L3"
+        }
+      ],
+      "problem": "Enable changes to the content and behavior of native mobile interfaces without requiring a new app-store release.",
+      "ruslan_contribution": [
+        "Joined near the start of the project as the second person after the manager and was responsible for architecture",
+        "Defined the system structure",
+        "Prepared architecture documentation, ADRs, and diagrams",
+        "Presented and defended decisions to platform architects"
+      ],
+      "decisions": [
+        "Defined service boundaries and API contracts for the Backend-Driven UI platform"
+      ],
+      "outcomes": []
+    },
+    {
+      "id": "sber-ai-agent-anomaly-monitoring",
+      "publication_status": "draft",
+      "title": "Sber AI-agent anomaly-monitoring service",
+      "tags": [
+        "ai-agents",
+        "mlops",
+        "monitoring"
+      ],
+      "keywords": [
+        "Sber",
+        "Сбер",
+        "AI-agent monitoring",
+        "anomaly detection",
+        "MLOps",
+        "LSTM"
+      ],
+      "technologies": [
+        "LSTM"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L5"
+        }
+      ],
+      "problem": "Create an anomaly-monitoring service for AI agents developed by different product teams.",
+      "ruslan_contribution": [
+        "Joined a new two-person team as a developer and MLOps engineer",
+        "Defined the service boundaries and logic",
+        "Selected and implemented a scientific approach to detecting deviations"
+      ],
+      "decisions": [
+        "Selected the anomaly-detection approach used by the service"
+      ],
+      "outcomes": [
+        "The team launched the product in production in four months"
+      ]
+    },
+    {
+      "id": "echo-dictation",
+      "publication_status": "draft",
+      "title": "Echo Dictation",
+      "tags": [
+        "ai-product",
+        "speech",
+        "product-development"
+      ],
+      "keywords": [
+        "Echo Dictation",
+        "dictation",
+        "meeting transcription",
+        "voice transcription"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L7"
+        }
+      ],
+      "problem": "Provide dictation and meeting transcription in an application.",
+      "ruslan_contribution": [
+        "Built the Echo Dictation application"
+      ],
+      "decisions": [],
+      "outcomes": []
+    },
+    {
+      "id": "aiva-agent-platform",
+      "publication_status": "draft",
+      "title": "Aiva voice and chat agent platform",
+      "tags": [
+        "ai-agents",
+        "backend",
+        "architecture",
+        "product-development"
+      ],
+      "keywords": [
+        "Aiva",
+        "voice agents",
+        "chat agents",
+        "голосовые агенты",
+        "чат-агенты",
+        "telephony",
+        "RAG",
+        "CRM integrations"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "pgvector",
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "LangChain",
+        "Langfuse",
+        "SIP"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L7"
+        },
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md"
+        }
+      ],
+      "problem": "Build a multi-user platform for business voice and chat agents, including telephony, knowledge retrieval, integrations, deployment, and monitoring.",
+      "ruslan_contribution": [
+        "Owns product and development together with a small team",
+        "Built the platform's technical core and backend",
+        "Designed agent execution, telephony, model-provider adapters, RAG, and business integrations",
+        "Implemented deployment, monitoring, and production diagnostics"
+      ],
+      "decisions": [
+        "Selected reusable open-source components",
+        "Separated real-time model providers behind adapters",
+        "Designed team, user, role, and access-control boundaries"
+      ],
+      "outcomes": [
+        "Built a multi-user platform with separate teams, users, roles, and permissions",
+        "Supported inbound enquiries, lead qualification, customer support, and outbound campaigns"
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "spec-driven-ai-development",
+      "publication_status": "draft",
+      "title": "Spec-driven development with AI agents",
+      "tags": [
+        "ai-assisted-development",
+        "engineering-process",
+        "architecture"
+      ],
+      "keywords": [
+        "spec-driven development",
+        "AI coding agents",
+        "Codex",
+        "Spec Kit",
+        "ER diagrams",
+        "UML",
+        "BPMN",
+        "Mermaid"
+      ],
+      "technologies": [
+        "Codex",
+        "Spec Kit",
+        "Mermaid",
+        "UML",
+        "BPMN"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L9"
+        }
+      ],
+      "statement": "Use a spec-driven workflow in which AI agents help turn dictated context into requirements, questions, plans, and tasks, while the engineer reviews the artifacts and makes the decisions.",
+      "application": "Ruslan provides agents with both text and diagrams, including ER, UML, and BPMN diagrams generated with Mermaid, to make system relationships and design problems easier to inspect.",
+      "exceptions": []
+    }
+  ],
+  "interview_qa": [
+    {
+      "id": "interview-01",
+      "publication_status": "draft",
+      "title": "How many years of hands-on experience do you have in ML and NLP, and which ML or LLM features have you shipped to production?",
+      "tags": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "reliability",
+        "integrations",
+        "devops",
+        "marketing"
+      ],
+      "keywords": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "reliability",
+        "integrations",
+        "devops",
+        "marketing",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-1"
+        }
+      ],
+      "question": "How many years of hands-on experience do you have in ML and NLP, and which ML or LLM features have you shipped to production?",
+      "answer": "I have about four and a half years of experience in a dedicated ML role, from 2014 to 2018, when I applied classical models to actuarial and insurance data. After that, I focused on backend engineering and system architecture. Since 2025, I've been building production LLM applications, drawing on that engineering background.\n\nMy main project is Aiva, a voice and chat AI platform that I developed from scratch. I designed the backend and agent architecture, integrated telephony and model providers, and handled deployment and monitoring. The agents support inbound enquiries, lead qualification, customer support, and outbound campaigns. They can retrieve information from a knowledge base, call business tools, transfer a conversation to a person, and save the outcome in a CRM.\n\nMuch of my recent work has involved making these interactions reliable: handling interruptions and disconnected sessions, diagnosing latency, and ensuring that a call result is saved before the session closes.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "experience:ml-data-science-background"
+      ]
+    },
+    {
+      "id": "interview-02",
+      "publication_status": "draft",
+      "title": "Have you fine-tuned open-source LLMs such as Llama, Mistral, or Qwen using LoRA, PEFT, or similar methods? If so, what was the task and the outcome?",
+      "tags": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "integrations"
+      ],
+      "keywords": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "integrations",
+        "vLLM",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "vLLM",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-2"
+        }
+      ],
+      "question": "Have you fine-tuned open-source LLMs such as Llama, Mistral, or Qwen using LoRA, PEFT, or similar methods? If so, what was the task and the outcome?",
+      "answer": "I haven't fine-tuned open-source LLMs with LoRA, PEFT, or similar methods. My recent work has focused on integrating models into production applications through APIs, prompts, tool calling, and RAG.\n\nFor example, in Aiva I built the path from a business knowledge base to an agent's answer: document processing, embeddings, vector retrieval, and passing relevant context to the model. I also integrated several providers for real-time voice conversations and implemented the surrounding application logic, including call handling, CRM integration, and monitoring.\n\nI have worked with vLLM as inference infrastructure. My hands-on experience with LLMs is strongest in application engineering and operating agents in production; I don't have a fine-tuning project or training results to present.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-03",
+      "publication_status": "draft",
+      "title": "Do you have commercial experience with LLMs? Which frameworks and tools have you used?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "pgvector",
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "Grok Voice",
+        "LangChain",
+        "Langfuse",
+        "Yandex AI Studio",
+        "vLLM",
+        "S3",
+        "SIP",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "pgvector",
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "Grok Voice",
+        "LangChain",
+        "Langfuse",
+        "Yandex AI Studio",
+        "vLLM",
+        "S3",
+        "SIP",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-3"
+        }
+      ],
+      "question": "Do you have commercial experience with LLMs? Which frameworks and tools have you used?",
+      "answer": "Yes. I developed Aiva, a production platform for voice and chat AI agents, and was responsible for its technical architecture, backend, integrations, deployment, and monitoring. The platform supports business scenarios such as lead qualification, customer support, and outbound calls.\n\nFor voice, I integrated Google Gemini, OpenAI Realtime, and xAI/Grok Voice through provider adapters. The agents work with SIP telephony and use tools to search a knowledge base, record an outcome, transfer a call, or end the conversation. For chat, I used Gemini with LangChain, Redis for conversation history, and Langfuse for tracing model requests.\n\nThe RAG pipeline uses Yandex AI Studio embeddings and PostgreSQL with pgvector, with source documents stored in S3. The backend is built with Python and FastAPI. I also have separate experience with vLLM for model inference.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-04",
+      "publication_status": "draft",
+      "title": "How have you evaluated the quality of ML or LLM features? Have you used evaluation datasets, LLM-as-a-judge, or A/B testing?",
+      "tags": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "architecture",
+        "observability",
+        "reliability"
+      ],
+      "keywords": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "architecture",
+        "observability",
+        "reliability",
+        "Langfuse",
+        "SIP",
+        "interview answer"
+      ],
+      "technologies": [
+        "Langfuse",
+        "SIP"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-4"
+        }
+      ],
+      "question": "How have you evaluated the quality of ML or LLM features? Have you used evaluation datasets, LLM-as-a-judge, or A/B testing?",
+      "answer": "I've built an LLM-as-a-judge evaluation pipeline and have hands-on experience with automated evaluation of LLM outputs. My broader evaluation work also includes end-to-end testing of agents and monitoring their behavior in production.\n\nAt Sber, I joined a new two-person team as a developer and MLOps engineer to build an anomaly-monitoring service for AI agents developed by different product teams. I defined the service boundaries and logic, selected a scientific approach to detecting deviations, and implemented it. We took the service into production in four months. This gave me additional experience building infrastructure for monitoring agent behavior.\n\nIn Aiva, I test the complete voice-agent journey: connection, model and voice selection, tool calls, handoff, and call completion with the result saved. I use real SIP calls and smoke tests, correlate logs across the API, voice worker, media server, and SIP layer, and inspect chat traces in Langfuse. The operational metrics include time to first token, response duration, token usage, speech recognition and synthesis metrics, and call outcomes.\n\nI don't have measured A/B test results or a dedicated benchmark dataset for Aiva to share.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:sber-ai-agent-anomaly-monitoring"
+      ]
+    },
+    {
+      "id": "interview-05",
+      "publication_status": "draft",
+      "title": "Do you have commercial experience with Python? Which frameworks and libraries have you used?",
+      "tags": [
+        "machine-learning",
+        "rag",
+        "backend",
+        "reliability",
+        "integrations"
+      ],
+      "keywords": [
+        "machine-learning",
+        "rag",
+        "backend",
+        "reliability",
+        "integrations",
+        "Python",
+        "FastAPI",
+        "asyncio",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "Redis",
+        "interview answer"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "asyncio",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-5"
+        }
+      ],
+      "question": "Do you have commercial experience with Python? Which frameworks and libraries have you used?",
+      "answer": "Yes. Python has been my main language in commercial development for more than 10 years. My work has ranged from ML and bioinformatics data pipelines to backend services, API integrations, and production AI applications.\n\nIn Aiva, I use FastAPI and asyncio for the backend and asynchronous workflows, SQLAlchemy with PostgreSQL for persistent data, and Redis for temporary state and chat history. I also write background jobs, integration code, and tests. One example is the knowledge-base pipeline, which reads source documents, splits them into overlapping chunks, requests embeddings, and stores them for vector retrieval.\n\nI've also dealt with concurrency and task lifecycle problems. For example, I fixed a race during call termination where an asynchronous task could be cancelled before it saved the call result. My Python experience includes both implementing features and investigating their behavior across services in production.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "experience:backend-architecture-career"
+      ]
+    },
+    {
+      "id": "interview-07",
+      "publication_status": "draft",
+      "title": "Which part of your background makes you a strong fit for this role?",
+      "tags": [
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops"
+      ],
+      "keywords": [
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-7"
+        }
+      ],
+      "question": "Which part of your background makes you a strong fit for this role?",
+      "answer": "My strongest fit is the ability to take an AI product from a business requirement through to production and remain responsible for how it works after launch. I have more than 10 years of backend experience, including architecture work, and I've applied that background to building Aiva from scratch.\n\nIn Aiva, I designed the backend and agent architecture, integrated telephony, model providers, knowledge retrieval, and CRMs, and handled deployment and monitoring. I also investigated practical problems such as delayed responses, interrupted conversations, and call results being lost during session shutdown.\n\nEarlier, at Samokat, I designed the architecture for a Backend-Driven UI project, defined service boundaries and API contracts, documented decisions in ADRs, and reviewed them with platform architects. That combination gives me experience with both architecture in a larger organization and hands-on ownership of a product across its full technical lifecycle.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:samokat-backend-driven-ui",
+        "experience:backend-architecture-career"
+      ]
+    },
+    {
+      "id": "interview-08",
+      "publication_status": "draft",
+      "title": "Give one brief, concrete example that demonstrates your ambition, initiative, and commitment.",
+      "tags": [
+        "ai-agents",
+        "backend",
+        "observability",
+        "integrations",
+        "devops"
+      ],
+      "keywords": [
+        "ai-agents",
+        "backend",
+        "observability",
+        "integrations",
+        "devops",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-8"
+        }
+      ],
+      "question": "Give one brief, concrete example that demonstrates your ambition, initiative, and commitment.",
+      "answer": "Since 2025, I've built Aiva, my voice AI platform, from scratch and taken it into production. I learned the telephony protocols, selected reusable open-source components, designed the backend and agents, and integrated models, knowledge retrieval, and CRMs. I also took responsibility for deployment, monitoring, and diagnosing problems in real calls. The result is a multi-user platform for voice and chat agents, with teams, roles, and access controls.\n\nEarlier, I co-founded a grocery delivery startup and led software development through the launch of our first dark store in Minsk in October 2020. We delivered customer and courier apps, warehouse tools, and the order-to-delivery workflow alongside the physical operation.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-09",
+      "publication_status": "draft",
+      "title": "Расскажите кратко о вашем опыте технического лидерства, наставничества и проектирования архитектуры.",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "leadership",
+        "mentoring",
+        "integrations",
+        "devops"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "leadership",
+        "mentoring",
+        "integrations",
+        "devops",
+        "Python",
+        "FastAPI",
+        "interview answer"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-9"
+        }
+      ],
+      "question": "Расскажите кратко о вашем опыте технического лидерства, наставничества и проектирования архитектуры.",
+      "answer": "В Aiva я разработал с нуля платформу голосовых и чат-агентов для бизнеса и сейчас развиваю ее вместе с небольшой командой. Я отвечаю за продукт и техническую реализацию: изучил телефонные протоколы, выбрал открытые компоненты для переиспользования, спроектировал архитектуру и построил техническое ядро платформы.\n\nВ мою зону ответственности входят backend на Python и FastAPI, работа агентов, интеграции с моделями и телефонией, база знаний, CRM, развертывание и мониторинг. Я реализовал входящие и исходящие звонки, поиск по базе знаний, перевод на сотрудника и сохранение результатов. Платформа поддерживает отдельных пользователей и команды, роли и права доступа. После запуска я также занимался диагностикой задержек, разрывов сессий и ошибок при завершении звонков.\n\nВ Самокате я пришел в проект Backend-Driven UI почти в самом начале и отвечал за архитектуру. Определял API-контракты и границы сервисов, готовил диаграммы и ADR, защищал решения перед архитекторами платформы. Мой опыт технического лидерства связан с ответственностью за эти решения и их реализацию. Формальной роли наставника у меня не было.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:samokat-backend-driven-ui"
+      ]
+    },
+    {
+      "id": "interview-10",
+      "publication_status": "draft",
+      "title": "Был ли у вас опыт наставничества или руководства командой?",
+      "tags": [
+        "ai-agents",
+        "backend",
+        "architecture",
+        "leadership",
+        "mentoring",
+        "integrations"
+      ],
+      "keywords": [
+        "ai-agents",
+        "backend",
+        "architecture",
+        "leadership",
+        "mentoring",
+        "integrations",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-10"
+        }
+      ],
+      "question": "Был ли у вас опыт наставничества или руководства командой?",
+      "answer": "У меня есть опыт технического лидерства в небольшой продуктовой команде. Сейчас в Aiva я отвечаю за продукт и разработку: определяю архитектуру платформы, выбираю технические решения и участвую в реализации, интеграциях и эксплуатации. Это требует учитывать, как изменения в агентах, backend, телефонии и инфраструктуре влияют на работу всей системы.\n\nРанее в Самокате я отвечал за архитектуру Backend-Driven UI, оформлял решения в документации и ADR и обсуждал их с архитекторами платформы. Моя ответственность заключалась в том, чтобы определить устройство системы и обосновать принятые решения.\n\nВ роли линейного руководителя я не работал. Отдельного примера, где можно показать рост сотрудника под моим формальным наставничеством с исходным уровнем, результатом и сроками, у меня пока нет.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:samokat-backend-driven-ui"
+      ]
+    },
+    {
+      "id": "interview-11",
+      "publication_status": "draft",
+      "title": "Приходилось ли вам одновременно вести несколько проектов или инициатив? Сколько направлений вы координировали?",
+      "tags": [
+        "ai-agents",
+        "rag",
+        "backend",
+        "leadership",
+        "integrations",
+        "devops",
+        "marketing"
+      ],
+      "keywords": [
+        "ai-agents",
+        "rag",
+        "backend",
+        "leadership",
+        "integrations",
+        "devops",
+        "marketing",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-11"
+        }
+      ],
+      "question": "Приходилось ли вам одновременно вести несколько проектов или инициатив? Сколько направлений вы координировали?",
+      "answer": "В Aiva я параллельно вел несколько связанных направлений внутри одного продукта: backend, среду выполнения агентов, телефонию, базу знаний и RAG, CRM-интеграции, развертывание и мониторинг. Для каждого из них требовались свои технические решения, при этом пользовательский сценарий проходил сразу через несколько частей системы.\n\nНапример, исходящая кампания объединяет загрузку контактов, расписание с учетом часовых поясов, запуск звонка, работу агента, сохранение результата и аналитику. Я занимался как отдельными компонентами, так и их взаимодействием. Поэтому мой опыт включает координацию нескольких направлений разработки с общими зависимостями и единым результатом.\n\nФормальным портфелем независимых проектов я не управлял. Точное максимальное число одновременно ведущихся проектов назвать не могу: перечисленные направления были частями одной платформы.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-12",
+      "publication_status": "draft",
+      "title": "Запускали ли вы AI-проекты от идеи до пилота или внедрения?",
+      "tags": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "marketing"
+      ],
+      "keywords": [
+        "machine-learning",
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "marketing",
+        "LSTM",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "LSTM",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-12"
+        }
+      ],
+      "question": "Запускали ли вы AI-проекты от идеи до пилота или внедрения?",
+      "answer": "Да, у меня есть два примера. В Сбере я присоединился к новой команде из двух человек как разработчик и MLOps-инженер. Мы создавали сервис мониторинга аномалий для AI-агентов, которых разрабатывали разные продуктовые команды. Я продумал границы и логику сервиса, подобрал научный подход к обнаружению отклонений и реализовал его. За четыре месяца мы запустили сервис в production. После запуска фокус работы сместился к настройке модели LSTM. Мне было интереснее продолжать строить и развивать саму систему.\n\nВторой пример связан с собственной платформой Aiva, которую я разработал с нуля. Здесь моя ответственность охватывала весь цикл: выбор бизнес-сценариев, изучение телефонии и доступных компонентов, проектирование архитектуры, реализацию backend и агентов, интеграции и запуск.\n\nВ результате появились голосовые и чат-агенты для приема обращений, поддержки, квалификации лидов и исходящих кампаний. Я также построил RAG, подключил CRM и организовал мониторинг. После запуска продолжил работать с поведением системы в реальных звонках: задержками, перебиваниями, разрывами соединений и сохранением результатов.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:sber-ai-agent-anomaly-monitoring"
+      ]
+    },
+    {
+      "id": "interview-13",
+      "publication_status": "draft",
+      "title": "Расскажите об успешном примере внедрения AI в бизнес-процессы. Какую задачу вы решали и за что отвечали?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops",
+        "marketing"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops",
+        "marketing",
+        "Bitrix24",
+        "amoCRM",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "Bitrix24",
+        "amoCRM",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-13"
+        }
+      ],
+      "question": "Расскажите об успешном примере внедрения AI в бизнес-процессы. Какую задачу вы решали и за что отвечали?",
+      "answer": "В Aiva я реализовал автоматизацию клиентских коммуникаций через голосовых и чат-агентов. Один из основных сценариев связан с обработкой обращения: агент принимает звонок, отвечает на вопросы по базе знаний компании, квалифицирует обращение, при необходимости переводит разговор на сотрудника и сохраняет результат в CRM.\n\nЕсть и исходящие кампании. Пользователь загружает контакты и задает расписание с учетом часовых поясов, после чего платформа запускает звонки и собирает их результаты. Для этого я связал телефонию, модели для диалога в реальном времени, backend, RAG и бизнес-интеграции, включая Bitrix24 и amoCRM.\n\nМоя зона ответственности включала архитектуру и реализацию этого процесса, а также развертывание и диагностику. Например, пришлось отдельно решать проблему сохранения результата при завершении голосовой сессии. В результате получился работающий процесс от обращения или запуска кампании до фиксации итога в CRM. Данных, позволяющих точно оценить экономию или рост конверсии, у меня нет.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-15",
+      "publication_status": "draft",
+      "title": "At Prosper, we value a consistent record of achievement. In chronological order, list the academic, professional, or personal accomplishments that best demonstrate your ambition and discipline.",
+      "tags": [
+        "machine-learning",
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops"
+      ],
+      "keywords": [
+        "machine-learning",
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-15"
+        }
+      ],
+      "question": "At Prosper, we value a consistent record of achievement. In chronological order, list the academic, professional, or personal accomplishments that best demonstrate your ambition and discipline.",
+      "answer": "- **2014:** Graduated in Computer Systems Engineering and began working with machine learning on actuarial and insurance data. This was the start of my professional work with data and software systems.\n- **2018–2020:** Studied bioinformatics at Shanghai Jiao Tong University, built research data pipelines, and contributed to scientific publications.\n- **2020:** Co-founded a grocery delivery business and led software development through the launch of its first dark store in Minsk in October. The launch included customer and courier apps, warehouse tools, and the order-to-delivery workflow.\n- **2020–2025:** Built backend systems at X5 and Rive, then took responsibility for the Backend-Driven UI architecture at Samokat. I defined API contracts and service boundaries, wrote architectural documentation and ADRs, and defended decisions in reviews with platform architects.\n- **Since 2025:** Built Aiva, my voice and chat AI platform, from scratch. My work covers backend and agent architecture, telephony, model integrations, knowledge retrieval, CRMs, deployment, and monitoring. The platform supports multiple users and teams with roles and access controls.\n\nAcross these projects, I've repeatedly taken responsibility for building systems and bringing them into operation, including both software and the practical work needed to support a launch.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:samokat-backend-driven-ui",
+        "experience:ml-data-science-background"
+      ]
+    },
+    {
+      "id": "interview-16",
+      "publication_status": "draft",
+      "title": "Можете привести конкретный пример развития сотрудника под вашим наставничеством? С какого уровня он начинал, чего достиг и за какой срок?",
+      "tags": [
+        "architecture",
+        "leadership",
+        "mentoring"
+      ],
+      "keywords": [
+        "architecture",
+        "leadership",
+        "mentoring",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-16"
+        }
+      ],
+      "question": "Можете привести конкретный пример развития сотрудника под вашим наставничеством? С какого уровня он начинал, чего достиг и за какой срок?",
+      "answer": "У меня пока нет примера, где я мог бы описать рост конкретного сотрудника под моим наставничеством, назвать его исходный уровень, результат и сроки. Формальной роли наставника у меня не было.\n\nБлижайший по содержанию опыт связан с техническим лидерством. В Самокате я проектировал архитектуру, готовил документацию и ADR, объяснял и защищал решения перед архитекторами платформы. В Aiva отвечаю за продукт и техническую реализацию в небольшой команде. Эти примеры позволяют предметно обсудить мою ответственность за техническое направление, но оценивать по ним результаты индивидуального наставничества было бы преждевременно.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:samokat-backend-driven-ui"
+      ]
+    },
+    {
+      "id": "interview-17",
+      "publication_status": "draft",
+      "title": "Расскажите о важном архитектурном решении с высокой ценой ошибки. Какие варианты вы рассматривали, что выбрали и какие риски приняли?",
+      "tags": [
+        "backend",
+        "architecture",
+        "reliability"
+      ],
+      "keywords": [
+        "backend",
+        "architecture",
+        "reliability",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-17"
+        }
+      ],
+      "question": "Расскажите о важном архитектурном решении с высокой ценой ошибки. Какие варианты вы рассматривали, что выбрали и какие риски приняли?",
+      "answer": "В Aiva нужно было выбрать способ учета минут при параллельных звонках. Один из вариантов заключался в резервировании всего возможного расхода до начала разговора. Он потребовал бы дополнительных блокировок и усложнил запуск звонка. Я выбрал списание после завершения, по фактической длительности.\n\nВ этой схеме я предусмотрел две защиты. Списание выполняется в транзакции с блокировкой платежного профиля, чтобы параллельные операции корректно обновляли баланс. Идентификатор звонка используется для защиты от повторного списания за один и тот же разговор.\n\nУ решения есть бизнес-компромисс: если пакет минут исчерпан во время звонка, часть секунд может остаться неоплаченной, при этом долг клиенту не начисляется. Этот риск был принят осознанно. Выбранная схема упрощает обработку живого разговора, а учет фактической длительности и защита от повторного списания остаются в транзакционной части backend. Это пример решения, где мне пришлось одновременно учитывать поведение системы при конкурентных запросах и правила расчетов с клиентом.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-18",
+      "publication_status": "draft",
+      "title": "Расскажите о серьезном инциденте в production, за устранение которого вы отвечали. Как нашли причину, исправили проблему и предотвратили ее повторение?",
+      "tags": [
+        "ai-agents",
+        "observability",
+        "reliability",
+        "marketing"
+      ],
+      "keywords": [
+        "ai-agents",
+        "observability",
+        "reliability",
+        "marketing",
+        "asyncio",
+        "SIP",
+        "interview answer"
+      ],
+      "technologies": [
+        "asyncio",
+        "SIP"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-18"
+        }
+      ],
+      "question": "Расскажите о серьезном инциденте в production, за устранение которого вы отвечали. Как нашли причину, исправили проблему и предотвратили ее повторение?",
+      "answer": "В Aiva был сбой при завершении исходящих звонков: голосовая сессия могла закрыться, пока асинхронная задача еще отправляла результат разговора в API. Задача отменялась, и статус звонка или данные кампании могли не сохраниться. С точки зрения телефонии разговор уже завершился, но его бизнес-результат терялся.\n\nМы воспроизвели отмену задачи и сопоставили последовательность событий по логам. Причина оказалась в порядке завершения сессии и жизненном цикле асинхронной операции. Я вынес отправку результата в отдельную задачу и защитил ее с помощью `asyncio.shield`. Также изменил порядок действий: завершение исходящего звонка стало зависеть от успешного сохранения результата.\n\nДополнительно я добавил проверку повторного вызова и тесты на последовательность сохранения и завершения. Исправление затронуло и управление задачами, и прикладные правила окончания разговора. Для диагностики подобных проблем я использовал логи одного звонка из нескольких сервисов: API, голосового агента, медиасервера и SIP.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-19",
+      "publication_status": "draft",
+      "title": "С какой наиболее нагруженной системой вы работали? За какую часть архитектуры отвечали и какие ограничения масштабирования приходилось решать?",
+      "tags": [
+        "llm",
+        "backend",
+        "architecture",
+        "reliability"
+      ],
+      "keywords": [
+        "llm",
+        "backend",
+        "architecture",
+        "reliability",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-19"
+        }
+      ],
+      "question": "С какой наиболее нагруженной системой вы работали? За какую часть архитектуры отвечали и какие ограничения масштабирования приходилось решать?",
+      "answer": "Я работал с backend мгновенной доставки в X5 и проектировал Backend-Driven UI для мобильного приложения Самоката. В X5 занимался API и внутренними процессами операторов и диспетчеров. В Самокате пришел в проект на ранней стадии и отвечал за архитектуру платформы, которая позволяла менять содержимое и поведение нативного мобильного интерфейса без нового релиза приложения в сторах.\n\nВ мою зону ответственности входили API-контракты, конфигурационная модель и границы backend-сервисов. Я готовил архитектурные схемы, фиксировал решения в ADR и защищал их перед архитекторами платформы. Это тот опыт, который я могу подробно разобрать на уровне устройства системы и своей роли.\n\nТочных показателей нагрузки и замеров конкретного узкого места до и после оптимизации у меня нет. Из собственного опыта эксплуатации могу отдельно разобрать Aiva: параллельные звонки, конкурентное списание минут и гонки при завершении голосовых сессий. Для этих задач у меня есть конкретные технические решения, хотя сравнивать масштаб платформы с X5 или Самокатом без цифр я не буду.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:samokat-backend-driven-ui"
+      ]
+    },
+    {
+      "id": "interview-20",
+      "publication_status": "draft",
+      "title": "Разрабатывали ли вы AI-агента или мультиагентную систему для реальной бизнес-задачи? Какие инструменты использовали и для чего предназначался продукт?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "integrations",
+        "devops",
+        "multi-agent",
+        "marketing"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "integrations",
+        "devops",
+        "multi-agent",
+        "marketing",
+        "Python",
+        "FastAPI",
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "LangChain",
+        "SIP",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "LangChain",
+        "SIP",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-20"
+        }
+      ],
+      "question": "Разрабатывали ли вы AI-агента или мультиагентную систему для реальной бизнес-задачи? Какие инструменты использовали и для чего предназначался продукт?",
+      "answer": "Да. Я с нуля разработал Aiva, платформу голосовых и чат-агентов для бизнеса. Основные сценарии включают прием обращений, поддержку, квалификацию лидов и исходящие кампании. Я отвечал за архитектуру, backend на Python и FastAPI, интеграции, развертывание и мониторинг.\n\nГолосовой агент принимает SIP-звонок через медиасервер и взаимодействует с моделью в реальном времени. Для Gemini, OpenAI Realtime и xAI я реализовал отдельные адаптеры. Через инструменты агент ищет информацию в базе знаний, сохраняет итог разговора, переводит звонок на сотрудника или завершает его. Исходящие кампании включают загрузку контактов, расписание и сбор результатов.\n\nДля чата использовал Gemini с LangChain, Redis для истории и RAG для добавления контекста из документов. Голосовые и чат-сценарии связаны с CRM и другими бизнес-интеграциями. В платформе можно настроить нескольких агентов для разных задач, но они работают независимо, без делегирования между собой.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-21",
+      "publication_status": "draft",
+      "title": "Какой у вас опыт работы с Python и JavaScript, в том числе со скриптами и пайплайнами обработки данных?",
+      "tags": [
+        "machine-learning",
+        "llm",
+        "rag",
+        "backend",
+        "architecture",
+        "reliability",
+        "integrations"
+      ],
+      "keywords": [
+        "machine-learning",
+        "llm",
+        "rag",
+        "backend",
+        "architecture",
+        "reliability",
+        "integrations",
+        "Python",
+        "FastAPI",
+        "asyncio",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "pgvector",
+        "Redis",
+        "S3",
+        "JavaScript",
+        "TypeScript",
+        "Nuxt",
+        "Vue",
+        "React",
+        "Vite",
+        "Node.js",
+        "interview answer"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "asyncio",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "pgvector",
+        "Redis",
+        "S3",
+        "JavaScript",
+        "TypeScript",
+        "Nuxt",
+        "Vue",
+        "React",
+        "Vite",
+        "Node.js"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-21"
+        }
+      ],
+      "question": "Какой у вас опыт работы с Python и JavaScript, в том числе со скриптами и пайплайнами обработки данных?",
+      "answer": "Python я использую в коммерческой разработке больше 10 лет. Начинал с задач ML и обработки данных, работал с исследовательскими пайплайнами в биоинформатике, затем сосредоточился на backend и архитектуре. Пишу асинхронные сервисы, фоновые задания, API-интеграции и тесты; использую FastAPI, asyncio, SQLAlchemy, PostgreSQL и Redis.\n\nВ Aiva на Python построены backend, взаимодействие с моделями, голосовые сценарии и обработка базы знаний. Например, фоновый процесс читает документы из S3, разбивает текст на фрагменты, получает эмбеддинги и сохраняет их для поиска через pgvector. Есть также интеграции с телефонией и CRM, где нужно обрабатывать вебхуки, авторизацию и повторные запросы.\n\nJavaScript и TypeScript использую для интерфейсов и интеграционных задач. В моих проектах есть Nuxt/Vue, React/Vite и инструменты Node.js. Основная глубина моего опыта приходится на Python и backend, при этом я работаю и с интерфейсной частью продукта.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "experience:backend-architecture-career"
+      ]
+    },
+    {
+      "id": "interview-22",
+      "publication_status": "draft",
+      "title": "Работали ли вы с платформами для AI-автоматизации, такими как Flowise, n8n, Langflow или Make? Какие интеграции реализовывали?",
+      "tags": [
+        "ai-agents",
+        "rag",
+        "backend",
+        "observability",
+        "reliability",
+        "integrations"
+      ],
+      "keywords": [
+        "ai-agents",
+        "rag",
+        "backend",
+        "observability",
+        "reliability",
+        "integrations",
+        "Python",
+        "Bitrix24",
+        "amoCRM",
+        "Telegram",
+        "WhatsApp",
+        "interview answer"
+      ],
+      "technologies": [
+        "Python",
+        "Bitrix24",
+        "amoCRM",
+        "Telegram",
+        "WhatsApp"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-22"
+        }
+      ],
+      "question": "Работали ли вы с платформами для AI-автоматизации, такими как Flowise, n8n, Langflow или Make? Какие интеграции реализовывали?",
+      "answer": "Мой основной опыт AI-автоматизации связан с разработкой интеграций на Python. В Aiva я подключал агентов к Bitrix24, amoCRM, Telegram, WhatsApp, веб-виджетам, телефонии и клиентским API. В сервисах реализовывал авторизацию, обработку вебхуков, передачу данных и повторные попытки запросов.\n\nКонкретный сценарий выглядит так: агент принимает обращение или выполняет исходящий звонок, получает нужную информацию из базы знаний, фиксирует результат и передает его в CRM. При необходимости он переводит разговор на сотрудника. Я разрабатывал как взаимодействие с внешними системами, так и логику агента, который вызывает эти действия.\n\nПроект на Flowise, n8n, Langflow или Make я в качестве примера привести не могу. Мой практический опыт здесь связан с тем, как собрать и эксплуатировать такой процесс в собственных backend-сервисах.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-23",
+      "publication_status": "draft",
+      "title": "Какой у вас опыт работы с MCP (Model Context Protocol) и A2A (Agent-to-Agent)?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "integrations"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "integrations",
+        "MCP",
+        "A2A",
+        "interview answer"
+      ],
+      "technologies": [
+        "MCP",
+        "A2A"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-23"
+        }
+      ],
+      "question": "Какой у вас опыт работы с MCP (Model Context Protocol) и A2A (Agent-to-Agent)?",
+      "answer": "Я знаком с назначением MCP и A2A. MCP используется для подключения инструментов и ресурсов к агенту, A2A предназначен для взаимодействия отдельных агентов. В Aiva я не внедрял эти протоколы в production.\n\nМой практический опыт относится к самим интеграциям и вызовам инструментов: голосовой агент обращается к поиску по базе знаний, сохраняет результат разговора и переводит звонок на сотрудника. Взаимодействие с моделями реализовано через адаптеры провайдеров, а бизнес-логика находится в сервисах платформы.\n\nПоэтому я могу подробно рассказать об устройстве инструментов, интеграциях и управлении голосовой сессией. Отдельного внедрения MCP или взаимодействия агентов по A2A среди этих проектов нет.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-24",
+      "publication_status": "draft",
+      "title": "Как вы проектируете архитектуру AI-агента: вызовы инструментов, память и выполнение многошаговых сценариев? Работали ли вы с ReAct или специализированной средой управления агентами (harness)?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "reliability"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "observability",
+        "reliability",
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "LangChain",
+        "React",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "LangChain",
+        "React",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-24"
+        }
+      ],
+      "question": "Как вы проектируете архитектуру AI-агента: вызовы инструментов, память и выполнение многошаговых сценариев? Работали ли вы с ReAct или специализированной средой управления агентами (harness)?",
+      "answer": "В Aiva я проектировал агента как сочетание инструкций, состояния диалога, модели, доступных инструментов и правил завершения сценария. Backend хранит конфигурацию, а голосовая сессия использует выбранный адаптер модели и инструменты для конкретной задачи. Для работы с голосом я интегрировал Gemini, OpenAI Realtime и xAI.\n\nИнструменты позволяют агенту искать информацию в базе знаний, сохранять итог разговора, переводить звонок на сотрудника и завершать его. В чате я использовал Gemini через LangChain, историю диалога в Redis и добавление найденного RAG-контекста перед ответом. Таким образом, состояние разговора, доступ к знаниям и выполнение действий реализованы отдельными частями системы.\n\nНа уровне надежности я предусмотрел проверку входных данных, тайм-ауты, повторные попытки внешних вызовов и трассировку. Отдельно разбирал порядок завершения голосовой сессии: результат должен сохраниться до закрытия звонка. Отдельной реализации ReAct или специализированного harness в этом проекте у меня нет; могу предметно описать собственную логику управления сценариями и ее взаимодействие с готовым движком аудиосессий.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-25",
+      "publication_status": "draft",
+      "title": "Расскажите о вашем опыте разработки RAG-пайплайнов: разбиении документов, эмбеддингах и векторном поиске. Какие проблемы возникали на реальных данных и как вы их учитывали?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "reliability"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "reliability",
+        "PostgreSQL",
+        "pgvector",
+        "Yandex AI Studio",
+        "S3",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "PostgreSQL",
+        "pgvector",
+        "Yandex AI Studio",
+        "S3",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-25"
+        }
+      ],
+      "question": "Расскажите о вашем опыте разработки RAG-пайплайнов: разбиении документов, эмбеддингах и векторном поиске. Какие проблемы возникали на реальных данных и как вы их учитывали?",
+      "answer": "Да, в Aiva я разработал полный процесс работы с базой знаний. Документы в форматах `.txt`, `.md` и `.json` хранятся в S3. Фоновый процесс разбивает текст на фрагменты с перекрытием, получает эмбеддинги через Yandex AI Studio и сохраняет их в PostgreSQL с pgvector.\n\nПри поиске используется косинусное сходство и фильтры доступа по команде и агенту. В чате найденный контекст добавляется перед генерацией ответа. Голосовой агент обращается к поиску через инструмент во время разговора. Поэтому одна база знаний используется в двух разных сценариях взаимодействия с моделью.\n\nКачество зависит от исходного текста, разбиения документов, актуальности индекса и совместимости моделей эмбеддингов. Я предусмотрел версии индекса, фиксированную модель эмбеддингов, порог релевантности, ограничение объема контекста и повторные попытки индексации. Эти механизмы помогают управлять обновлением базы и тем, какой контекст получает агент. Мой практический опыт в этом проекте связан с pgvector; Qdrant и Chroma я здесь не использовал.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-26",
+      "publication_status": "draft",
+      "title": "С какими LLM API и средствами локального развертывания моделей вы работали? Как выбирали провайдера с учетом стоимости, качества и задержек?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "reliability",
+        "integrations",
+        "devops"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "reliability",
+        "integrations",
+        "devops",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "Grok Voice",
+        "LangChain",
+        "Yandex AI Studio",
+        "vLLM",
+        "interview answer"
+      ],
+      "technologies": [
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "Grok Voice",
+        "LangChain",
+        "Yandex AI Studio",
+        "vLLM"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-26"
+        }
+      ],
+      "question": "С какими LLM API и средствами локального развертывания моделей вы работали? Как выбирали провайдера с учетом стоимости, качества и задержек?",
+      "answer": "В Aiva я интегрировал Gemini, OpenAI Realtime и xAI/Grok Voice через отдельные адаптеры. Для чата использовал Gemini с LangChain, для эмбеддингов базы знаний использовал Yandex AI Studio. Также работал с vLLM как с инфраструктурой для запуска моделей, хотя основные агенты платформы обращаются к внешним API.\n\nПри выборе голосового провайдера я учитывал задержку ответа, поддержку потокового аудио и инструментов, обработку перебиваний, стоимость и устойчивость API. В реальном звонке все это влияет на диалог: нужно обработать речь пользователя, получить ответ, выполнить действие и корректно продолжить или закончить разговор.\n\nЯ занимался и эксплуатационной стороной интеграций: повторными попытками, резервным вариантом обработки при сбоях, трассировкой и диагностикой звонков. Для анализа использовал задержки, расход токенов и логи разных компонентов. Точных сравнительных результатов по стоимости и качеству моделей у меня нет, поэтому могу рассказать о критериях выбора и реализации, но не привести количественный рейтинг провайдеров.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-27",
+      "publication_status": "draft",
+      "title": "Role: Staff DevOps Engineer Describe an infrastructure improvement you identified and took from idea to production. What changed as a result, and how did you measure the impact?",
+      "tags": [
+        "observability",
+        "reliability",
+        "devops"
+      ],
+      "keywords": [
+        "observability",
+        "reliability",
+        "devops",
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Promtail",
+        "Terraform",
+        "cloud-init",
+        "SIP",
+        "interview answer"
+      ],
+      "technologies": [
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Promtail",
+        "Terraform",
+        "cloud-init",
+        "SIP"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-27"
+        }
+      ],
+      "question": "**Role: Staff DevOps Engineer**\n\nDescribe an infrastructure improvement you identified and took from idea to production. What changed as a result, and how did you measure the impact?",
+      "answer": "I built monitoring and diagnostics for Aiva, a production voice AI platform where each call passes through the API, SIP layer, media server, voice worker, and an external model. Investigating a failed call required understanding what happened across those components, so I took responsibility for setting up the monitoring infrastructure and call-level diagnostics.\n\nI provisioned the stack with Terraform and cloud-init, connected Prometheus, Grafana, Loki, and Promtail, and added health checks and dashboards. I also wrote a script to collect logs for one call across services. This gave us a central view of service health and a way to reconstruct the sequence of events for a specific conversation.\n\nI used that approach when investigating problems such as interrupted sessions and call completion failures. For example, correlating events helped diagnose a race where the voice session could close before the result was saved through the API. I don't have a reliable before-and-after measurement of incident resolution time; the concrete result was shared monitoring and a repeatable way to trace a call across the system.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-28",
+      "publication_status": "draft",
+      "title": "За какую часть проекта с AI-агентами вы отвечали? Расскажите, что вы разработали и как была устроена система.",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "integrations",
+        "devops",
+        "marketing"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "backend",
+        "architecture",
+        "integrations",
+        "devops",
+        "marketing",
+        "Python",
+        "FastAPI",
+        "pgvector",
+        "Redis",
+        "Gemini",
+        "xAI",
+        "LangChain",
+        "Yandex AI Studio",
+        "S3",
+        "SIP",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "pgvector",
+        "Redis",
+        "Gemini",
+        "xAI",
+        "LangChain",
+        "Yandex AI Studio",
+        "S3",
+        "SIP",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-28"
+        }
+      ],
+      "question": "За какую часть проекта с AI-агентами вы отвечали? Расскажите, что вы разработали и как была устроена система.",
+      "answer": "Я разработал с нуля техническое ядро Aiva и сейчас развиваю платформу вместе с небольшой командой. Моя зона ответственности включает продукт, архитектуру, backend на Python и FastAPI, конфигурацию агентов, интеграции, RAG, развертывание и мониторинг. Платформа поддерживает нескольких пользователей и команды с отдельными ролями и правами доступа.\n\nВ голосовом сценарии звонок проходит через SIP-телефонию и медиасервер к агенту, который взаимодействует с моделью через адаптер провайдера. Я реализовал входящие и исходящие звонки, адаптеры Gemini, OpenAI и xAI, поиск по базе знаний, сохранение результата, перевод на сотрудника и запись расшифровки разговора. Для исходящих кампаний есть загрузка контактов, расписание и аналитика.\n\nВ чате использовал Gemini через LangChain, Redis для истории и RAG для контекста. База знаний хранит документы в S3 и использует Yandex AI Studio с pgvector для индексации и поиска. После запуска я также отвечал за диагностику звонков и исправление проблем на стыке телефонии, модели и backend.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-29",
+      "publication_status": "draft",
+      "title": "Есть ли у вас опыт разработки мультиагентных систем? Как было организовано взаимодействие между агентами?",
+      "tags": [
+        "ai-agents",
+        "architecture",
+        "multi-agent"
+      ],
+      "keywords": [
+        "ai-agents",
+        "architecture",
+        "multi-agent",
+        "interview answer"
+      ],
+      "technologies": [],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-29"
+        }
+      ],
+      "question": "Есть ли у вас опыт разработки мультиагентных систем? Как было организовано взаимодействие между агентами?",
+      "answer": "В Aiva можно настроить несколько голосовых и чат-агентов для разных задач и каналов. Каждый работает со своей конфигурацией и доступными ему инструментами. Между ними нет делегирования или общего плана решения задачи, поэтому я не отношу эту платформу к мультиагентным системам.\n\nПри этом в собственной разработке я использую несколько AI-агентов для подготовки требований, планирования и ревью. Процесс начинается с описания задачи и контекста, затем агенты помогают сформировать спецификацию, план, список подзадач и вопросы для уточнения. Я проверяю эти материалы и принимаю решения о дальнейшей работе. Для разбора архитектуры использую текст вместе с диаграммами, в том числе ER-диаграммами.\n\nЭто опыт применения нескольких агентов в моем инженерном процессе. Отдельного клиентского внедрения, где агенты автономно делегируют работу друг другу и совместно выполняют бизнес-задачу, в описанных проектах нет.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-30",
+      "publication_status": "draft",
+      "title": "Как была устроена оркестрация агентов? Использовали ли вы LangGraph, PydanticAI или собственные компоненты?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "reliability"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "rag",
+        "observability",
+        "reliability",
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "LangChain",
+        "RAG",
+        "interview answer"
+      ],
+      "technologies": [
+        "Redis",
+        "Gemini",
+        "OpenAI Realtime",
+        "xAI",
+        "LangChain",
+        "RAG"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-30"
+        }
+      ],
+      "question": "Как была устроена оркестрация агентов? Использовали ли вы LangGraph, PydanticAI или собственные компоненты?",
+      "answer": "В голосовой части Aiva я использовал готовый движок аудиосессий, а прикладную оркестрацию написал сам. Она включает обработку входящего или исходящего звонка, загрузку конфигурации и промпта, выбор адаптера модели, вызовы инструментов, перевод на оператора и завершение разговора. Для Gemini, OpenAI Realtime и xAI предусмотрены отдельные адаптеры.\n\nВажная часть этой логики связана с жизненным циклом звонка. Например, сохранение бизнес-результата должно завершиться до закрытия исходящей сессии. Я отдельно исправлял гонку между этими операциями, защищал асинхронную задачу от отмены и проверял последовательность тестами.\n\nДля чата использовал LangChain с Gemini и Redis для истории. Загрузку промптов, добавление RAG-контекста, повторные попытки запросов и трассировку реализовал в сервисном слое. LangGraph и PydanticAI в этом проекте не применялись. Основная работа по оркестрации заключалась в управлении состоянием разговора, инструментами и завершением бизнес-сценария.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-31",
+      "publication_status": "draft",
+      "title": "Как вы оценивали качество агентной системы и контролировали ее работу в production? Какие метрики и инструменты использовали?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "architecture",
+        "observability"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "architecture",
+        "observability",
+        "Langfuse",
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Sentry",
+        "SIP",
+        "interview answer"
+      ],
+      "technologies": [
+        "Langfuse",
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Sentry",
+        "SIP"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-31"
+        }
+      ],
+      "question": "Как вы оценивали качество агентной системы и контролировали ее работу в production? Какие метрики и инструменты использовали?",
+      "answer": "У меня есть опыт построения пайплайна оценки через LLM-as-a-judge. Также я занимался сквозным тестированием агентов и мониторингом их поведения в production.\n\nОтдельный проект был в Сбере: я присоединился к новой команде из двух человек как разработчик и MLOps-инженер, чтобы создать сервис мониторинга аномалий для AI-агентов разных продуктовых команд. Я продумал границы и логику сервиса, подобрал научный подход к обнаружению отклонений и реализовал его. За четыре месяца мы запустили сервис в production.\n\nВ Aiva я проверял голосовых агентов реальными SIP-звонками и smoke-тестами: соединение, слышимость ответа, выбор модели и голоса, вызовы инструментов, перевод на сотрудника и завершение разговора с сохранением результата. При разборе проблем сопоставлял логи API, голосового агента, медиасервера и SIP. Для этого написал скрипт сбора логов одного звонка из нескольких сервисов.\n\nСистема собирает время до первого токена, длительность ответа, расход токенов и метрики распознавания и синтеза речи. Продуктовая аналитика показывает количество, исходы и длительность звонков. Для эксплуатации использовал Prometheus, Grafana, Loki и Sentry, а чат-запросы к LLM отслеживал через Langfuse. Измеренных результатов A/B-тестов для Aiva у меня нет.",
+      "supported_by": [
+        "project:aiva-agent-platform",
+        "project:sber-ai-agent-anomaly-monitoring"
+      ]
+    },
+    {
+      "id": "interview-32",
+      "publication_status": "draft",
+      "title": "Расскажите о самой сложной системе или задаче, где вы несли значительную техническую ответственность. Какие решения вы принимали самостоятельно?",
+      "tags": [
+        "llm",
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops"
+      ],
+      "keywords": [
+        "llm",
+        "ai-agents",
+        "backend",
+        "architecture",
+        "observability",
+        "integrations",
+        "devops",
+        "Gemini",
+        "xAI",
+        "SIP",
+        "interview answer"
+      ],
+      "technologies": [
+        "Gemini",
+        "xAI",
+        "SIP"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-32"
+        }
+      ],
+      "question": "Расскажите о самой сложной системе или задаче, где вы несли значительную техническую ответственность. Какие решения вы принимали самостоятельно?",
+      "answer": "Самой сложной для меня была разработка Aiva с нуля, особенно голосовой части платформы. Нужно было связать SIP-телефонию, медиасервер, модель для диалога в реальном времени, инструменты агента и сохранение результата в CRM. Я отвечал за архитектуру этого взаимодействия, backend, сценарии входящих и исходящих звонков и адаптеры Gemini, OpenAI и xAI.\n\nСложность проявлялась на стыке компонентов: задержки ответа, перебивания, тишина, разрывы сессий и завершение разговора. Например, голосовая сессия могла закрыться раньше, чем асинхронная задача сохраняла итог звонка. Я воспроизвел проблему, изменил управление задачей и порядок завершения, затем закрепил сценарий тестами.\n\nДля таких расследований я организовал сбор логов одного вызова из нескольких сервисов и проверял исправления реальными SIP-звонками. Параллельно занимался базой знаний, интеграциями, развертыванием и мониторингом. В этом проекте моя ответственность охватывала весь путь от выбора компонентов и проектирования до разбора конкретного сбоя после запуска.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-33",
+      "publication_status": "draft",
+      "title": "Есть ли у вас опыт работы с маркетинговыми продуктами и процессами, например с кампаниями, акциями или программами лояльности?",
+      "tags": [
+        "ai-agents",
+        "backend",
+        "observability",
+        "integrations",
+        "marketing"
+      ],
+      "keywords": [
+        "ai-agents",
+        "backend",
+        "observability",
+        "integrations",
+        "marketing",
+        "Bitrix24",
+        "amoCRM",
+        "interview answer"
+      ],
+      "technologies": [
+        "Bitrix24",
+        "amoCRM"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/typical-questions.md#question-33"
+        }
+      ],
+      "question": "Есть ли у вас опыт работы с маркетинговыми продуктами и процессами, например с кампаниями, акциями или программами лояльности?",
+      "answer": "Да, мой опыт связан с коммуникациями в маркетинге и продажах. В Aiva я реализовал исходящие кампании: загрузку контактов, расписание с учетом часовых поясов, звонки AI-агента, фиксацию результатов и аналитику. Это позволяет организовать процесс от подготовки списка контактов до просмотра итогов разговоров.\n\nТакже я работал над приемом и квалификацией лидов. Агент общается с клиентом, использует базу знаний, сохраняет результат в CRM и при необходимости переводит разговор на сотрудника. В этих сценариях я отвечал за backend, телефонию, логику агента и интеграции с бизнес-системами, включая Bitrix24 и amoCRM.\n\nМеханики акций, промокодов и программ лояльности в этом продукте я не разрабатывал. Поэтому наиболее подробно могу рассказать об автоматизации обращений и исходящих коммуникаций, передаче данных в CRM и техническом устройстве кампаний.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    },
+    {
+      "id": "interview-career-transition-2025",
+      "publication_status": "draft",
+      "title": "Career transition after the Samokat project",
+      "tags": [
+        "career",
+        "ai-product"
+      ],
+      "keywords": [
+        "leaving Samokat",
+        "career transition",
+        "почему ушел из Самоката",
+        "переход в AI"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L3"
+        }
+      ],
+      "question": "Почему вы ушли из Самоката и чем занимались после этого?",
+      "answer": "Расскажу про Самокат. Я пришёл в проект Backend-Driven UI почти в самом начале, вторым человеком после менеджера, и отвечал за архитектуру. Платформа позволяла менять содержимое и поведение интерфейса нативных мобильных приложений без нового релиза в сторах. Я определял устройство системы, писал архитектурную документацию и ADR, готовил диаграммы и защищал решения перед архитекторами платформы. Это прямо совпадает с вашим требованием текущей вакансии. К сожалению, в феврале 25-го года произошли сокращения. Нашу команду полностью расформировали. И я решил взять оклады и уйти. Это было начало 25-го года, и я уже понимал, что я отстаю. Я особо не следил за ИИ и понимал, что я отстаю. И мне нужно было срочно делать какой-то продукт, связанный с ИИ, вообще разбираться с этой новой экосистемой. Вот. И полгода я посвятил вообще мониторингу того, что происходит, пробовал разные продукты, делал свой продукт, там, голосовую диктовку и так далее. Летом попутешествовал по Европе, и уже осенью я попал на проект в Збере.",
+      "supported_by": [
+        "project:samokat-backend-driven-ui"
+      ]
+    },
+    {
+      "id": "interview-current-job-search",
+      "publication_status": "draft",
+      "title": "Current job-search motivation",
+      "tags": [
+        "career",
+        "motivation",
+        "ai-product"
+      ],
+      "keywords": [
+        "why looking for a job",
+        "career motivation",
+        "почему ищет работу",
+        "поиск вакансии",
+        "Aiva market"
+      ],
+      "sources": [
+        {
+          "type": "ruslan_statement",
+          "reference": "references/my-intro.md#L11"
+        }
+      ],
+      "question": "Почему вы сейчас рассматриваете новые вакансии?",
+      "answer": "Почему я сейчас ищу вакансии? Проект, который я делаю, Aiva, он замыслился на основании двух идей. Первая — это получить практический обширный опыт работы с ИИ. Не просто где-то кусочек тебе дали в компании и пилю, а вот прямо от начала до конца. Деплой, анализ текущих решений, определение архитектуры, ну вот вообще просто весь спектр. Вторая — это попытаться заработать денег, возможно, сделать успешный стартап. Первое успешно получилось, второе — нет. Второе тяжело очень дается, даю B2B-продажи очень тяжело идут, рынок тяжелый. И самое опасное то, что компании типа МТС, Билайн, Яндекс, они делают точно такие решения, и они выйдут на рынок в ближайшее время. Ну и с момента, как они выйдут на рынок, от нас уже ничего не останется. Я точно знаю, что в Яндексе делают точно такую же платформу. И поэтому я сейчас рассматриваю интересные проекты, где я могу применить свой наработанный опыт.",
+      "supported_by": [
+        "project:aiva-agent-platform"
+      ]
+    }
+  ]
 }

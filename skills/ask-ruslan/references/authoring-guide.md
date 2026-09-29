@@ -4,12 +4,14 @@ Use this guide only when maintaining the Ask Ruslan knowledge base.
 
 ## Publication workflow
 
-1. Add new facts to `knowledge-base.json` with `publication_status: "draft"`.
+1. Add new facts to `knowledge-base.json` with `publication_status: "draft"`. When importing the bundled `my-intro.md` and `typical-questions.md` sources, run `python3 scripts/import_markdown_drafts.py --write` from the skill directory. The importer collapses duplicate questions, preserves unrelated records, and never overwrites a non-draft record.
 2. Keep each record narrow enough that Ruslan can approve every factual claim in it.
 3. Record provenance in `sources`. Use a short non-secret reference; never copy credentials, private contact details, confidential client material, or unpublished source contents into the public base.
 4. Ask Ruslan to review the exact record. Approval of one record does not approve related inferences or other records.
 5. Only after explicit approval, set `publication_status` to `approved_public` and add `approved_on` and `approved_by`.
 6. Run `python3 scripts/search_knowledge.py --validate-only`.
+
+The Markdown files are provenance sources, not searchable knowledge by themselves. Only records in `knowledge-base.json` whose status is `approved_public` are returned by the search script. Re-running the importer updates generated drafts but preserves records that have already been approved, made private, or retired.
 
 Use `private` only as an exclusion marker. A public plugin should normally store private material elsewhere rather than embedding it in this bundle. Use `retired` when a previously public record must no longer appear in answers.
 

@@ -97,6 +97,13 @@ class SearchKnowledgeTests(unittest.TestCase):
         result = SEARCH.search(data, "Опыт с C++", None, 5, 2)
         self.assertEqual(result["matches"][0]["ref"], "project:cpp-project")
 
+    def test_russian_case_inflections_match(self):
+        data = knowledge_base(
+            [record("voice-agents", "approved_public", "голосовые агенты")]
+        )
+        result = SEARCH.search(data, "Опыт с голосовыми агентами", None, 5, 2)
+        self.assertEqual(result["matches"][0]["ref"], "project:voice-agents")
+
 
 if __name__ == "__main__":
     unittest.main()

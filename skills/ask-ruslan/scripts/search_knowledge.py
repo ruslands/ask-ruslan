@@ -22,6 +22,7 @@ COLLECTIONS = {
 }
 KINDS = tuple(COLLECTIONS)
 TOKEN_RE = re.compile(r"[^\W_]+(?:[+#]+)?", re.UNICODE)
+CYRILLIC_TOKEN_RE = re.compile(r"^[а-яё]+$")
 
 
 def normalize(value: str) -> str:
@@ -30,7 +31,17 @@ def normalize(value: str) -> str:
 
 
 def tokens(value: str) -> set[str]:
-    return {token for token in normalize(value).split() if len(token) > 1}
+    result: set[str] = set()
+    for token in normalize(value).split():
+        if len(token) <= 1:
+            continue
+        result.add(token)
+        # A small deterministic prefix variant makes Russian case inflections
+        # searchable without adding a language model or a morphology dependency.
+        # Six characters is long enough to avoid most collisions in this domain.
+        if len(token) >= 6 and CYRILLIC_TOKEN_RE.fullmatch(token):
+            result.add(f"{token[:5]}*")
+    return result
 
 
 def text_values(value: Any) -> list[str]:
