@@ -48,6 +48,45 @@ def knowledge_base(projects):
 
 
 class SearchKnowledgeTests(unittest.TestCase):
+    def test_bundled_kb_answers_curated_screening_question(self):
+        knowledge_base = SEARCH.load_kb(SEARCH.DEFAULT_KB)
+        query = (
+            "How many years of hands-on experience do you have in ML and NLP, "
+            "and which ML or LLM features have you shipped to production?"
+        )
+
+        result = SEARCH.search(knowledge_base, query, "interview_qa", 5, 2)
+
+        self.assertGreater(result["public_records_considered"], 0)
+        self.assertGreater(result["match_count"], 0)
+        self.assertEqual(result["matches"][0]["ref"], "interview_qa:interview-01")
+        self.assertIn("four and a half years", result["matches"][0]["record"]["answer"])
+
+    def test_all_bundled_curated_questions_are_public_and_self_match(self):
+        knowledge_base = SEARCH.load_kb(SEARCH.DEFAULT_KB)
+        curated_records = [
+            record
+            for record in knowledge_base["interview_qa"]
+            if any(
+                source.get("reference", "").startswith(
+                    "references/typical-questions.md"
+                )
+                for source in record["sources"]
+            )
+        ]
+
+        self.assertEqual(len(curated_records), 31)
+        for record in curated_records:
+            with self.subTest(record_id=record["id"]):
+                self.assertEqual(record["publication_status"], "approved_public")
+                result = SEARCH.search(
+                    knowledge_base, record["question"], "interview_qa", 5, 2
+                )
+                self.assertEqual(
+                    result["matches"][0]["ref"],
+                    f"interview_qa:{record['id']}",
+                )
+
     def test_private_and_draft_records_are_never_returned(self):
         data = knowledge_base(
             [

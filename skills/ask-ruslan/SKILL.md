@@ -5,21 +5,27 @@ description: Answer technical and interview-style questions about Ruslan using h
 
 # Ask Ruslan
 
-Ground every claim about Ruslan in the bundled public knowledge base. The base intentionally starts empty until Ruslan explicitly approves facts for publication.
+Ground every claim about Ruslan in the bundled public knowledge base. The curated answers imported from `references/typical-questions.md` are approved for public use; other material remains unavailable until Ruslan explicitly approves it.
 
 ## Retrieve evidence
 
 Resolve all paths relative to this `SKILL.md` directory.
 
-1. Search `references/knowledge-base.json` with:
+1. For an interview, screening, or scoring question, search the curated answers first:
+
+   ```bash
+   python3 scripts/search_knowledge.py --query "<user question>" --kind interview_qa --limit 5
+   ```
+
+2. For any other question about Ruslan, search all approved records:
 
    ```bash
    python3 scripts/search_knowledge.py --query "<user question>" --limit 5
    ```
 
-2. Use only returned records. The script excludes every record whose `publication_status` is not `approved_public`.
-3. Prefer a direct curated interview answer when it closely matches the question. Otherwise synthesize only from matching approved experience, projects, or principles.
-4. Cite supporting record IDs inline, such as `[project:payments-migration]`. Do not cite a record that does not support the nearby claim.
+3. Use only returned records. The script excludes every record whose `publication_status` is not `approved_public`.
+4. Prefer a direct curated interview answer when it closely matches the question. Return its substantive answer instead of a knowledge-base inventory or record-count report. Otherwise synthesize only from matching approved records.
+5. Cite supporting record IDs inline, such as `[interview_qa:interview-01]`. Do not cite a record that does not support the nearby claim.
 
 Use `--kind experience`, `--kind project`, `--kind principle`, or `--kind interview_qa` when the user's intent makes one collection clearly preferable. Read [references/authoring-guide.md](references/authoring-guide.md) only when adding, editing, reviewing, or validating knowledge-base entries.
 
@@ -36,6 +42,8 @@ Use `--kind experience`, `--kind project`, `--kind principle`, or `--kind interv
 ## Interview answers
 
 Write in first person only when a matching `interview_qa` record contains an approved first-person answer, or when first-person phrasing is a faithful grammatical transformation of approved facts. Preserve the record's uncertainty and scope. Otherwise answer in third person and explain that a first-person answer cannot be grounded yet.
+
+Every incoming interview, screening, or scoring question should receive a substantive answer when one or more approved records are relevant. Do not replace an available answer with diagnostics such as collection counts or search-area tables. If no record matches the wording exactly, use the closest relevant approved records and clearly limit the answer to what they support.
 
 When several records are combined, distinguish direct facts from synthesis. Never manufacture connective details to make a story sound complete.
 

@@ -278,7 +278,9 @@
   "interview_qa": [
     {
       "id": "interview-01",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "How many years of hands-on experience do you have in ML and NLP, and which ML or LLM features have you shipped to production?",
       "tags": [
         "machine-learning",
@@ -321,7 +323,9 @@
     },
     {
       "id": "interview-02",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Have you fine-tuned open-source LLMs such as Llama, Mistral, or Qwen using LoRA, PEFT, or similar methods? If so, what was the task and the outcome?",
       "tags": [
         "machine-learning",
@@ -360,7 +364,9 @@
     },
     {
       "id": "interview-03",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Do you have commercial experience with LLMs? Which frameworks and tools have you used?",
       "tags": [
         "llm",
@@ -431,7 +437,9 @@
     },
     {
       "id": "interview-04",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "How have you evaluated the quality of ML or LLM features? Have you used evaluation datasets, LLM-as-a-judge, or A/B testing?",
       "tags": [
         "machine-learning",
@@ -471,7 +479,9 @@
     },
     {
       "id": "interview-05",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Do you have commercial experience with Python? Which frameworks and libraries have you used?",
       "tags": [
         "machine-learning",
@@ -517,7 +527,9 @@
     },
     {
       "id": "interview-07",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Which part of your background makes you a strong fit for this role?",
       "tags": [
         "ai-agents",
@@ -553,7 +565,9 @@
     },
     {
       "id": "interview-08",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Give one brief, concrete example that demonstrates your ambition, initiative, and commitment.",
       "tags": [
         "ai-agents",
@@ -585,7 +599,9 @@
     },
     {
       "id": "interview-09",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Расскажите кратко о вашем опыте технического лидерства, наставничества и проектирования архитектуры.",
       "tags": [
         "llm",
@@ -631,7 +647,9 @@
     },
     {
       "id": "interview-10",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Был ли у вас опыт наставничества или руководства командой?",
       "tags": [
         "ai-agents",
@@ -666,7 +684,9 @@
     },
     {
       "id": "interview-11",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Приходилось ли вам одновременно вести несколько проектов или инициатив? Сколько направлений вы координировали?",
       "tags": [
         "ai-agents",
@@ -705,7 +725,9 @@
     },
     {
       "id": "interview-12",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Запускали ли вы AI-проекты от идеи до пилота или внедрения?",
       "tags": [
         "machine-learning",
@@ -751,7 +773,9 @@
     },
     {
       "id": "interview-13",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Расскажите об успешном примере внедрения AI в бизнес-процессы. Какую задачу вы решали и за что отвечали?",
       "tags": [
         "llm",
@@ -798,7 +822,9 @@
     },
     {
       "id": "interview-15",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "At Prosper, we value a consistent record of achievement. In chronological order, list the academic, professional, or personal accomplishments that best demonstrate your ambition and discipline.",
       "tags": [
         "machine-learning",
@@ -836,7 +862,9 @@
     },
     {
       "id": "interview-16",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Можете привести конкретный пример развития сотрудника под вашим наставничеством? С какого уровня он начинал, чего достиг и за какой срок?",
       "tags": [
         "architecture",
@@ -865,7 +893,9 @@
     },
     {
       "id": "interview-17",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Расскажите о важном архитектурном решении с высокой ценой ошибки. Какие варианты вы рассматривали, что выбрали и какие риски приняли?",
       "tags": [
         "backend",
@@ -893,7 +923,9 @@
     },
     {
       "id": "interview-18",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Расскажите о серьезном инциденте в production, за устранение которого вы отвечали. Как нашли причину, исправили проблему и предотвратили ее повторение?",
       "tags": [
         "ai-agents",
@@ -928,7 +960,9 @@
     },
     {
       "id": "interview-19",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "С какой наиболее нагруженной системой вы работали? За какую часть архитектуры отвечали и какие ограничения масштабирования приходилось решать?",
       "tags": [
         "llm",
@@ -959,7 +993,9 @@
     },
     {
       "id": "interview-20",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Разрабатывали ли вы AI-агента или мультиагентную систему для реальной бизнес-задачи? Какие инструменты использовали и для чего предназначался продукт?",
       "tags": [
         "llm",
@@ -1018,7 +1054,9 @@
     },
     {
       "id": "interview-21",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Какой у вас опыт работы с Python и JavaScript, в том числе со скриптами и пайплайнами обработки данных?",
       "tags": [
         "machine-learning",
@@ -1086,7 +1124,9 @@
     },
     {
       "id": "interview-22",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Работали ли вы с платформами для AI-автоматизации, такими как Flowise, n8n, Langflow или Make? Какие интеграции реализовывали?",
       "tags": [
         "ai-agents",
@@ -1131,7 +1171,9 @@
     },
     {
       "id": "interview-23",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Какой у вас опыт работы с MCP (Model Context Protocol) и A2A (Agent-to-Agent)?",
       "tags": [
         "llm",
@@ -1168,7 +1210,9 @@
     },
     {
       "id": "interview-24",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Как вы проектируете архитектуру AI-агента: вызовы инструментов, память и выполнение многошаговых сценариев? Работали ли вы с ReAct или специализированной средой управления агентами (harness)?",
       "tags": [
         "llm",
@@ -1219,7 +1263,9 @@
     },
     {
       "id": "interview-25",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Расскажите о вашем опыте разработки RAG-пайплайнов: разбиении документов, эмбеддингах и векторном поиске. Какие проблемы возникали на реальных данных и как вы их учитывали?",
       "tags": [
         "llm",
@@ -1260,7 +1306,9 @@
     },
     {
       "id": "interview-26",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "С какими LLM API и средствами локального развертывания моделей вы работали? Как выбирали провайдера с учетом стоимости, качества и задержек?",
       "tags": [
         "llm",
@@ -1311,7 +1359,9 @@
     },
     {
       "id": "interview-27",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Role: Staff DevOps Engineer Describe an infrastructure improvement you identified and took from idea to production. What changed as a result, and how did you measure the impact?",
       "tags": [
         "observability",
@@ -1354,7 +1404,9 @@
     },
     {
       "id": "interview-28",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "За какую часть проекта с AI-агентами вы отвечали? Расскажите, что вы разработали и как была устроена система.",
       "tags": [
         "llm",
@@ -1415,7 +1467,9 @@
     },
     {
       "id": "interview-29",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Есть ли у вас опыт разработки мультиагентных систем? Как было организовано взаимодействие между агентами?",
       "tags": [
         "ai-agents",
@@ -1443,7 +1497,9 @@
     },
     {
       "id": "interview-30",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Как была устроена оркестрация агентов? Использовали ли вы LangGraph, PydanticAI или собственные компоненты?",
       "tags": [
         "llm",
@@ -1488,7 +1544,9 @@
     },
     {
       "id": "interview-31",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Как вы оценивали качество агентной системы и контролировали ее работу в production? Какие метрики и инструменты использовали?",
       "tags": [
         "llm",
@@ -1532,7 +1590,9 @@
     },
     {
       "id": "interview-32",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Расскажите о самой сложной системе или задаче, где вы несли значительную техническую ответственность. Какие решения вы принимали самостоятельно?",
       "tags": [
         "llm",
@@ -1575,7 +1635,9 @@
     },
     {
       "id": "interview-33",
-      "publication_status": "draft",
+      "publication_status": "approved_public",
+      "approved_on": "2026-10-01",
+      "approved_by": "Ruslan",
       "title": "Есть ли у вас опыт работы с маркетинговыми продуктами и процессами, например с кампаниями, акциями или программами лояльности?",
       "tags": [
         "ai-agents",
